@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "firelack.portalsmenus.mixin",
+	"package": "firelack.freeinventory.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"

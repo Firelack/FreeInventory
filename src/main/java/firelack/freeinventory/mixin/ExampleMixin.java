@@ -1,4 +1,4 @@
-package firelack.portalsmenus.mixin;
+package firelack.freeinventory.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

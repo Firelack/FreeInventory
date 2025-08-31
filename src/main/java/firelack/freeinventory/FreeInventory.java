@@ -1,12 +1,12 @@
-package firelack.portalsmenus;
+package firelack.freeinventory;
 
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PortalsMenus implements ModInitializer {
-	public static final String MOD_ID = "portalsmenus";
+public class FreeInventory implements ModInitializer {
+	public static final String MOD_ID = "free-inventory";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

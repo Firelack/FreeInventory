@@ -5,8 +5,13 @@
 
 ## 📖 Description
 
-This mod allows you to keep menus (inventory, mod menus, etc.) open while standing inside a Nether portal.  
-In vanilla Minecraft, being inside a portal automatically closes any open GUI screen. This mod removes that limitation on the client side.
+Free Inventory removes the vanilla restriction that forces your inventory and other GUI screens to close in certain situations.
+With this mod, you can keep menus (inventory, mod menus, etc.) open even when:
+
+- Standing inside a Nether portal
+- Sleeping in a bed
+
+This is a client-side mod, so you can use it on any server without compatibility issues.
 
 > **Note:** At the moment, this repository only contains the base Fabric template.  
 > The actual feature will be added in future commits.
@@ -25,7 +30,7 @@ In vanilla Minecraft, being inside a portal automatically closes any open GUI sc
 
 ## 🛠 How to Use
 
-Just open your menus in the nether portails like you everywhere ! (Not implemented yet)
+Simply install the mod and open your menus anywhere you like — even in portals or while sleeping ! (Not implemented yet)
 
 ## 💻 Installation
 
@@ -34,5 +39,6 @@ Will be explain in the future
 ## 📦 Future improvements
 
 - Add the menu in portals
+- Add inventory while sleeping
 
 This project is a work in progress. If you have any suggestions, feel free to reach out to me!

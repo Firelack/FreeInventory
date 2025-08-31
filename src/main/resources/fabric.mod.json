@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "portalsmenus",
+	"id": "free-inventory",
 	"version": "${version}",
-	"name": "PortalsMenus",
+	"name": "Free Inventory",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,18 +12,18 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/portalsmenus/icon.png",
+	"icon": "assets/free-inventory/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"firelack.portalsmenus.PortalsMenus"
+			"firelack.freeinventory.FreeInventory"
 		],
 		"fabric-datagen": [
-			"firelack.portalsmenus.PortalsMenusDataGenerator"
+			"firelack.freeinventory.FreeInventoryDataGenerator"
 		]
 	},
 	"mixins": [
-		"portalsmenus.mixins.json"
+		"free-inventory.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.2",

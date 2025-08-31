@@ -3,21 +3,18 @@
 	"id": "free-inventory",
 	"version": "${version}",
 	"name": "Free Inventory",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
+	"description": "Keep your inventory and menus open anywhere – even in portals or while sleeping!",
+  	"authors": ["Firelack"],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Firelack/FreeInventory",
+		"sources": "https://github.com/Firelack/FreeInventory"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/free-inventory/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"firelack.freeinventory.FreeInventory"
-		],
+		"main": ["firelack.freeinventory.FreeInventory"],
+		"client": ["firelack.freeinventory.client.FreeInventoryClient"],
 		"fabric-datagen": [
 			"firelack.freeinventory.FreeInventoryDataGenerator"
 		]
@@ -30,8 +27,5 @@
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

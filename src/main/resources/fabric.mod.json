@@ -3,15 +3,13 @@
 	"id": "free-inventory",
 	"version": "${version}",
 	"name": "Free Inventory",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
+	"description": "Keep your inventory and menus open anywhere - even in portals or while sleeping!",
+	"authors": ["Firelack"],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Firelack/FreeInventory",
+		"sources": "https://github.com/Firelack/FreeInventory"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/free-inventory/icon.png",
 	"environment": "*",
 	"entrypoints": {

@@ -1,37 +1,36 @@
-{
+	{
 	"schemaVersion": 1,
 	"id": "free-inventory",
 	"version": "${version}",
 	"name": "Free Inventory",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
+	"description": "Keep your inventory and menus open anywhere – even in portals or while sleeping!",
+	"authors": ["Firelack"],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Firelack/FreeInventory",
+		"sources": "https://github.com/Firelack/FreeInventory"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/free-inventory/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"firelack.freeinventory.FreeInventory"
+		"firelack.freeinventory.FreeInventory"
 		],
 		"client": [
-			"firelack.freeinventory.FreeInventoryClient"
+		"firelack.freeinventory.FreeInventoryClient"
 		],
 		"fabric-datagen": [
-			"firelack.freeinventory.FreeInventoryDataGenerator"
+		"firelack.freeinventory.FreeInventoryDataGenerator"
 		]
 	},
 	"mixins": [
-		"free-inventory.mixins.json",
-		{
-			"config": "free-inventory.client.mixins.json",
-			"environment": "client"
-		}
+		"free-inventory.mixins.json"
 	],
+	"client": {
+		"mixins": [
+		"free-inventory.client.mixins.json"
+		]
+	},
 	"depends": {
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.1",
@@ -41,4 +40,4 @@
 	"suggests": {
 		"another-mod": "*"
 	}
-}
+	}

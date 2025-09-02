@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "firelack.freeinventory.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "InPortalClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

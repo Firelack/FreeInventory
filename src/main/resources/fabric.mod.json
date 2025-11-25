@@ -3,7 +3,7 @@
 	"id": "free-inventory",
 	"version": "${version}",
 	"name": "Free Inventory",
-	"description": "Keep your inventory and menus open anywhere – even in portals or while sleeping!",
+	"description": "Keep your inventory and menus open anywhere - even in portals or while sleeping!",
   	"authors": ["Firelack"],
 	"contact": {
 		"homepage": "https://github.com/Firelack/FreeInventory",
@@ -20,8 +20,12 @@
 		]
 	},
 	"mixins": [
-		"free-inventory.mixins.json"
-	],
+			"free-inventory.mixins.json",
+			{
+				"config": "free-inventory.client.mixins.json",
+				"environment": "client"
+			}
+		],
 	"depends": {
 		"fabricloader": ">=0.17.2",
 		"minecraft": "~1.21.1",

@@ -3,7 +3,8 @@
   "package": "firelack.freeinventory.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "NoPortalCloseMixin"
+    "NoPortalCloseMixin",
+    "PortalLockMixin"
   ],
   "injectors": {
     "defaultRequire": 1

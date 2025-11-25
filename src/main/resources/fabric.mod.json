@@ -3,7 +3,7 @@
 	"id": "free-inventory",
 	"version": "${version}",
 	"name": "Free Inventory",
-	"description": "Keep your inventory and menus open anywhere - even in portals or while sleeping!",
+	"description": "Keep your inventory and menus open in nether portals !",
   	"authors": ["Firelack"],
 	"contact": {
 		"homepage": "https://github.com/Firelack/FreeInventory",

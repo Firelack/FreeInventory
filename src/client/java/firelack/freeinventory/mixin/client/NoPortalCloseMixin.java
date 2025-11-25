@@ -1,5 +1,6 @@
 package firelack.freeinventory.mixin.client;
 
+import firelack.freeinventory.client.FreeInventoryClient;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -15,16 +16,12 @@ public class NoPortalCloseMixin {
     private void preventPortalClosing(Screen screen, CallbackInfo ci) {
         Minecraft mc = (Minecraft) (Object) this;
 
-        // If the new screen to set is null (meaning the current screen is being closed)
         if (screen == null) {
-            // If the player is in a portal
             if (mc.player != null && mc.player.portalProcess != null) {
-                
-                // If the current screen is an inventory screen
-                if (mc.screen instanceof AbstractContainerScreen) {
-                    
-                    // Cancel the screen closing
-                    ci.cancel();
+                if (FreeInventoryClient.isPlayerTicking) {
+                    if (mc.screen instanceof AbstractContainerScreen) {
+                        ci.cancel();
+                    }
                 }
             }
         }

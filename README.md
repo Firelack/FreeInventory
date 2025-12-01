@@ -15,7 +15,7 @@ This is a **Client-Side** mod. You can use it on any server (Vanilla, Paper, Spi
 This mod works perfectly on its own, but it is designed to be paired with **InvMove**.
 
 * **[InvMove](https://www.curseforge.com/minecraft/mc-mods/invmove)** allows you to walk while your inventory is open.
-* **Free Inventory** keeps your inventory open inside the portal.
+* **[Free Inventory](https://www.curseforge.com/minecraft/mc-mods/free-inventory)** keeps your inventory open inside the portal.
 
 **Combined:** You can walk into a portal with your inventory open, check your items while the nausea effect plays, and walk out the other side !
 
@@ -34,13 +34,12 @@ This mod works perfectly on its own, but it is designed to be paired with **InvM
 
 ## 🛠 Installation
 
-1. Download and install **Fabric Loader** for Minecraft 1.21.1.
-2. Download the latest `FreeInventory.jar` from the releases page.
-3. Download **Fabric API** (and optionally **InvMove**).
-4. Place the `.jar` files into your `.minecraft/mods` folder.
-5. Launch the game!
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/free-inventory)
+* [Modrinth](https://modrinth.com/mod/free-inventory)
 
-> Installation on CurseForge or Modrinth will be available later.
+## 📦 Modpack
+
+Feel free to include this mod Buttons in modpacks.
 
 ## ©️ Credits
 

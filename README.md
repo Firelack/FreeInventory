@@ -4,27 +4,41 @@
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.x-green?style=flat-square&logo=minecraft)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-**Free Inventory** removes the vanilla restriction that forces your inventory and other GUI screens to close when standing inside a Nether portal.
+**Free Inventory** removes the vanilla restriction that forces your inventory and other GUI screens to close when standing inside a Nether portal or other similar portals (with mods).
 
-Normally, when the portal animation starts, Minecraft closes any open container. With this mod, you can organize your inventory, chat, or configure your game even while teleporting!
+Normally, when the portal animation starts, Minecraft closes any open container. With this mod, you can organize your inventory, open GUI or access the escape menu even while teleporting!
 
 This is a **Client-Side** mod. You can use it on any server (Vanilla, Paper, Spigot, etc.) without needing the server to install it.
 
-## 🤝 Compatibility & Recommendations
+## 🚀 Features
 
-This mod works perfectly on its own, but it is designed to be paired with **InvMove**.
+* ✅ **Keep Inventory Open:** Open and manage your inventory inside Nether portals and other similar portals (with compatible mods).
+* ✅ **No GUI Closing:** Prevents pause menu, inventory, and other screens from being forced closed by portal logic.
+* ✅ **Seamless Teleportation:** You continue to be teleported even while menus are open (the game does not pause).
+* ✅ **Client-Side Only:** No server installation required.
+
+## 🤝 Compatibility
+
+### Recommended Pairing
+
+This mod is designed to be paired with **InvMove** for the best experience.
 
 * **[InvMove](https://www.curseforge.com/minecraft/mc-mods/invmove)** allows you to walk while your inventory is open.
 * **[Free Inventory](https://www.curseforge.com/minecraft/mc-mods/free-inventory)** keeps your inventory open inside the portal.
 
 **Combined:** You can walk into a portal with your inventory open, check your items while the nausea effect plays, and walk out the other side !
 
-## 🚀 Features
+### Supported Portals
 
-* ✅ **Keep Inventory Open:** Open and manage your inventory inside Nether portals.
-* ✅ **No GUI Closing:** Prevents pause menu, inventory, and other screens from being forced closed by portal logic.
-* ✅ **Seamless Teleportation:** You continue to be teleported even while menus are open (the game does not pause).
-* ✅ **Client-Side Only:** No server installation required.
+Free Inventory automatically detects and works with portals from many popular mods, including :
+
+* **Minecraft Vanilla** (Nether Portal)
+* **The Aether**
+* **Deeper and Darker**
+* **Custom Portals**
+* *And any other mod using blocks with "portal" in their name!*
+
+>Note : These mods are only compatible with the versions of Minecraft that they share with Free Inventory.
 
 ## 📦 Requirements
 
@@ -39,7 +53,7 @@ This mod works perfectly on its own, but it is designed to be paired with **InvM
 
 ## 📦 Modpack
 
-Feel free to include this mod Buttons in modpacks.
+Feel free to include this mod in any modpack.
 
 ## ©️ Credits
 

@@ -3,6 +3,7 @@
   "package": "firelack.freeinventory.mixin.client",
   "compatibilityLevel": "JAVA_21",
   "client": [
+    "PortalLockMixin",
     "NoPortalCloseMixin",
     "KeyboardProtectionMixin",
     "MouseProtectionMixin"

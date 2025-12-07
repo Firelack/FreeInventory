@@ -10,6 +10,8 @@ Normally, when the portal animation starts, Minecraft closes any open container.
 
 This is a **Client-Side** mod. You can use it on any server (Vanilla, Paper, Spigot, etc.) without needing the server to install it.
 
+>Note : This mod also prevent portals trap, because you are able to break blocs while standing in portals.
+
 ## 🚀 Features
 
 * ✅ **Keep Inventory Open:** Open and manage your inventory inside Nether portals and other similar portals (with compatible mods).

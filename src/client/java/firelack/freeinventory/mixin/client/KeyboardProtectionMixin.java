@@ -11,12 +11,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class KeyboardProtectionMixin {
 
     @Inject(method = "keyPress", at = @At("HEAD"))
-    private void onKeyPressStart(long window, int key, int scancode, int action, int modifiers, CallbackInfo ci) {
+    private void onKeyPressStart(CallbackInfo ci) {
         FreeInventoryClient.isInputActive = true;
     }
 
     @Inject(method = "keyPress", at = @At("RETURN"))
-    private void onKeyPressEnd(long window, int key, int scancode, int action, int modifiers, CallbackInfo ci) {
+    private void onKeyPressEnd(CallbackInfo ci) {
         FreeInventoryClient.isInputActive = false;
     }
 }

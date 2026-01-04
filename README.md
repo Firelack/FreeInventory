@@ -1,7 +1,7 @@
 # Free Inventory
 
 ![Fabric](https://img.shields.io/badge/Loader-Fabric-beige?style=flat-square&logo=fabric)
-![Minecraft](https://img.shields.io/badge/Minecraft-1.21.x-green?style=flat-square&logo=minecraft)
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21--1.21.8-green?style=flat-square&logo=minecraft)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 **Free Inventory** removes the vanilla restriction that forces your inventory and other GUI screens to close when standing inside a Nether portal or other similar portals (with mods).

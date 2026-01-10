@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "free-inventory",
+  "version": "${version}",
+  "name": "Free Inventory",
+  "description": "Keep your inventory and menus open in nether portals !",
+  "authors": ["Firelack"],
+  "contact": {
+    "homepage": "https://github.com/Firelack/FreeInventory",
+    "sources": "https://github.com/Firelack/FreeInventory",
+    "issues": "https://github.com/Firelack/FreeInventory/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/free-inventory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["firelack.freeinventory.client.FreeInventoryClient"]
+  },
+  "mixins": [
+    {
+      "config": "free-inventory.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": ">=1.21.9",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

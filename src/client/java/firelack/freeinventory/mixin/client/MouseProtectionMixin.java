@@ -10,12 +10,12 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(MouseHandler.class)
 public class MouseProtectionMixin {
 
-    @Inject(method = "onPress", at = @At("HEAD"))
+    @Inject(method = "onButton", at = @At("HEAD"))
     private void onMousePressStart(CallbackInfo ci) {
         FreeInventoryClient.isInputActive = true;
     }
 
-    @Inject(method = "onPress", at = @At("RETURN"))
+    @Inject(method = "onButton", at = @At("RETURN"))
     private void onMousePressEnd(CallbackInfo ci) {
         FreeInventoryClient.isInputActive = false;
     }

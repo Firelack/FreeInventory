@@ -7,20 +7,16 @@
   	"authors": ["Firelack"],
 	"contact": {
 		"homepage": "https://github.com/Firelack/FreeInventory",
-		"sources": "https://github.com/Firelack/FreeInventory"
-	},
+		"sources": "https://github.com/Firelack/FreeInventory",
+    	"issues": "https://github.com/Firelack/FreeInventory/issues"
+  	},
 	"license": "MIT",
 	"icon": "assets/free-inventory/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": ["firelack.freeinventory.FreeInventory"],
-		"client": ["firelack.freeinventory.client.FreeInventoryClient"],
-		"fabric-datagen": [
-			"firelack.freeinventory.FreeInventoryDataGenerator"
-		]
+		"client": ["firelack.freeinventory.client.FreeInventoryClient"]
 	},
 	"mixins": [
-			"free-inventory.mixins.json",
 			{
 				"config": "free-inventory.client.mixins.json",
 				"environment": "client"

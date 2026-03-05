@@ -39,7 +39,7 @@ dependencies {
 	
 }
 
-processResources {
+processClientResources {
 	inputs.property "version", project.version
 
 	filesMatching("fabric.mod.json") {
@@ -85,11 +85,4 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
-}
-
-processResources {
-    inputs.property "version", project.version
-    filesMatching("fabric.mod.json") {
-        expand "version": project.version
-    }
 }

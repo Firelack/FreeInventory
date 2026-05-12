@@ -44,7 +44,7 @@ Free Inventory automatically detects and works with portals from many popular mo
 
 ## 📦 Requirements
 
-* [Java 21](https://adoptium.net/) (Required for Minecraft 1.21+)
+* [Java 21](https://adoptium.net/) (1.21+) or [Java 25](https://adoptium.net/) (26.1+)
 * [Fabric Loader](https://fabricmc.net/use/)
 * [Fabric API](https://modrinth.com/mod/fabric-api)
 
